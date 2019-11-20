@@ -408,8 +408,7 @@ test_that("update correctly handles 60 seconds on 59 minute (bug #313)", {
 test_that("Updateing on seconds doesn't affect hours", {
   ## https://github.com/tidyverse/lubridate/issues/619
 
-  tt <- Sys.time()
-  tt2 <- tt
+  tt2 <- tt <- Sys.time()
   second(tt2) <- 5
   expect_equal(hour(tt), hour(tt2))
 })
