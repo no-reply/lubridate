@@ -3,6 +3,7 @@ Version 1.7.4.9000
 
 ### NEW FEATURES
 
+* [#675](https://github.com/tidyverse/lubridate/issues/675) `force_tz()`, `with_tz()`, `tz<-` convert dates to date-times 
 * [#672](https://github.com/tidyverse/lubridate/issues/672) Eliminate all partial argument matches
 * [#705](https://github.com/tidyverse/lubridate/issues/705) all deprecated functions have been removed
 * [#695](https://github.com/tidyverse/lubridate/issues/695) Durations can now be compared with numeric vectors.
